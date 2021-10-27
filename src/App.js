@@ -13,10 +13,8 @@ function App() {
       <Router>
         <Switch>
           <Route path="/">
-
           </Route>
           <Route path="/search">
-
           </Route>
         </Switch>
       </Router>
