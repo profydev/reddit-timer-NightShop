@@ -6,10 +6,12 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
   return (
     <div>
+      <GlobalStyle />
       <Router>
         <Switch>
           <Route path="/">
