@@ -16,8 +16,8 @@ function App() {
         <GlobalStyle />
         <Header />
         <Switch>
-          <Route path="/">Home</Route>
           <Route path="/search">Search</Route>
+          <Route path="/">Home</Route>
         </Switch>
       </Router>
     </div>
