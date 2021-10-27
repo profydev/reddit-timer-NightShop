@@ -1,9 +1,23 @@
 import React from 'react';
+import './assets/normalize.css';
+import './index.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
   return (
     <div>
-      App Placeholder
+      <GlobalStyle />
+      <Router>
+        <Switch>
+          <Route path="/" />
+          <Route path="/search" />
+        </Switch>
+      </Router>
     </div>
   );
 }
