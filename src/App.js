@@ -7,15 +7,17 @@ import {
   Route,
 } from 'react-router-dom';
 import GlobalStyle from './GlobalStyle';
+import Header from './Header';
 
 function App() {
   return (
     <div>
-      <GlobalStyle />
       <Router>
+        <GlobalStyle />
+        <Header />
         <Switch>
-          <Route path="/" />
-          <Route path="/search" />
+          <Route path="/">Home</Route>
+          <Route path="/search">Search</Route>
         </Switch>
       </Router>
     </div>
