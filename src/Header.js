@@ -14,7 +14,7 @@ const ImageWrapper = styled.a`
     margin-top: 32px;
 `;
 
-const NavLink = styled(Link)`
+const NavLink = styled.a`
   float: right;
   margin-left: 25.5px;
   font-size: 16px;
@@ -27,13 +27,13 @@ function Header() {
       <ImageWrapper href="/">
         <img src={sign} alt="logo" />
       </ImageWrapper>
-      <NavLink to="/">
+      <NavLink href="#about">
         About
       </NavLink>
-      <NavLink to="/">
+      <NavLink href="#how-it-works">
         How it works
       </NavLink>
-      <NavLink to="/search">
+      <NavLink href="/search/javascript">
         Search
       </NavLink>
     </HeaderTag>
