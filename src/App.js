@@ -14,10 +14,8 @@ function App() {
       <GlobalStyle />
       <Router>
         <Switch>
-          <Route path="/">
-          </Route>
-          <Route path="/search">
-          </Route>
+          <Route path="/" />
+          <Route path="/search" />
         </Switch>
       </Router>
     </div>
